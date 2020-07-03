@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_picking">
+
+    <fragment
+        android:id="@+id/nav_logging"
+        android:name="com.example.storemanagement.ui.LogFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_log" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_seeking"
+        android:name="com.example.storemanagement.ui.SeekFragment"
+        android:label="货物查询"
+        tools:layout="@layout/fragment_seek" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_picking"
+        android:name="com.example.storemanagement.ui.PickFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_pick" />
+
+    <fragment
+        android:id="@+id/nav_counting"
+        android:name="com.example.storemanagement.ui.CountFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_count" />
+
+    <fragment
+        android:id="@+id/nav_adding"
+        android:name="com.example.storemanagement.ui.AddFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_count" />
+
+    <fragment
+        android:id="@+id/nav_return"
+        android:name="com.example.storemanagement.ui.ReturnFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_count" />
+
+    <fragment
+        android:id="@+id/nav_distribution"
+        android:name="com.example.storemanagement.ui.DistribFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_count" />
+</navigation>

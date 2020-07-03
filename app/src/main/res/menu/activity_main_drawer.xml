@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logging"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="切换身份" />
+        <item
+            android:id="@+id/nav_seeking"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="货物查询" />
+        <item
+            android:id="@+id/nav_picking"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="订单拣货" />
+        <item
+            android:id="@+id/nav_counting"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="库存盘点" />
+        <!--
+        <item
+            android:id="@+id/nav_adding"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="商品入库" />
+        <item
+            android:id="@+id/nav_return"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="退货处理" />
+        <item
+            android:id="@+id/nav_distribution"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="任务分配（管理员）" />
+        -->
+    </group>
+</menu>
